@@ -6,12 +6,11 @@ import './styles.css';
 
 //reducir importaciones
 import {Todo, TodoList} from './classes';
+import { crearTodoHtml } from './js/componentes';
 
 const todoList = new TodoList();
 const tarea = new Todo('Aprender JavaScript');
-console.log(todoList);
-console.log(tarea);
-
-
 todoList.nuevoTodo(tarea);
-console.log(todoList);
+
+crearTodoHtml
+
