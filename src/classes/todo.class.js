@@ -7,4 +7,5 @@ export class Todo{
         this.completado = false;
         this.creado = new Date();
     }
+    
 }
