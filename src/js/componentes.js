@@ -54,7 +54,8 @@ divTodoList.addEventListener('click', (event) => {
 });
 
 btnBorrar.addEventListener('click', ()=>{
-	`todoList.eliminarCompletados();`  //elimina del arreglo de Todos
+	todoList.eliminarCompletados();  //elimina del arreglo de Todos
+	
 	//eliminar del HTML
 	for (let i = divTodoList.children.length-1; i >=0; i--) {
 		const elemento = divTodoList.children[i];
